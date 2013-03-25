@@ -31,4 +31,5 @@ To make the layout available in Ubuntu, edit the `/usr/share/X11/xkb/rules/evdev
     </layout>
 
 In the `/usr/share/X11/xkb/rules/evdev.lst` file, add the following entry under the `! variant` list:
+
       dvorak          latam: Spanish (Latin American, Dvorak)
