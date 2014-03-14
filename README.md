@@ -45,4 +45,4 @@ Some distros use /etc/conf.d/keymaps to handle keyboard configuration. Edit it t
 
 Or it is possible to set the keymap just for current session:
 
-   loadkeys dvorak-la
+     loadkeys dvorak-la
