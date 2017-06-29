@@ -1,7 +1,20 @@
 # latam-dvorak
 ### A Latin American Spanish Dvorak keyboard layout.
 
+This is the original layout and It's based in Spanish Dvorak layout:
+
 ![](https://dl.dropbox.com/u/1116031/images/latam-dvorak.png)
+
+This this the new Latin American Spanish Dvorak layout:
+
+![](im/new-latam-dvorak.png)
+
+Improvements:
+
+* It's based on Latin American QWERTY keyboard
+* There  are some  keyboards  with  aditional symbols  and  now  it's easier  change  physical
+  keys. Usually Q (@) and Ñ (~)
+* Detailed lvl3 symbols.
 
 ## Installation on X.Org
 I suggest to back up the `/usr/share/X11/xkb/symbols/latam` file. For example, in Ubuntu:
@@ -34,7 +47,7 @@ In the `/usr/share/X11/xkb/rules/evdev.lst` file, add the following entry under 
 
       dvorak          latam: Spanish (Latin American, Dvorak)
 
-## Installation on console
+## Installation on console (now available in some distros by default)
 Copy `dvorak-la.map.gz` on the dvorak keymaps directory (Usually `/usr/share/keymaps/i386/dvorak/`):
 
      sudo cp dvorak-la.map.gz /usr/share/keymaps/i386/dvorak/
