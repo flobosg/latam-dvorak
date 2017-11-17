@@ -8,7 +8,7 @@ This this the new Latin American Spanish Dvorak layout:
 Improvements:
 
 * It's based on Latin American QWERTY keyboard
-* There  are some  keyboards  with  aditional symbols  and  now  it's easier  change  physical
+* There  are some  keyboards  with  additional symbols  and  now  it's easier  change  physical
   keys. Usually Q (@) and Ñ (~)
 * Detailed lvl3 symbols.
 
