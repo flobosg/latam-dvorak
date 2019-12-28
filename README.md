@@ -25,10 +25,25 @@ Copy `dvorak-la.map.gz` on the dvorak keymaps directory (Usually `/usr/share/key
 
      sudo cp dvorak-la.map.gz /usr/share/keymaps/i386/dvorak/
 
-Some distros use /etc/conf.d/keymaps to handle keyboard configuration. Edit it to configure your keyboard. 
+Some distros use /etc/conf.d/keymaps to handle keyboard configuration. Edit it to configure your
+keyboard.
 
      keymap="dvorak-la"
 
 Or it is possible to set the keymap just for current session:
 
      loadkeys dvorak-la
+
+## Installation on GRUB
+Copy `latam-dvorak.gkb` on the layouts directory (Usually `/boot/grub/layouts/`):
+
+    sudo cp latam-dvorak.gkb /boot/grub/layouts/
+	
+Add the options to the GRUB config, `/etc/grub.d/40_custom` is recommended:
+
+    terminal_input at_keyboard
+    keymap latam-dvorak
+
+Optionally, you can generate your own gkb file with the files lacated on `ckbdcomp` directory on
+this repository  and the  command `grub-mklayout`.  That files are  just the  `ckbdcomp` command
+output.
